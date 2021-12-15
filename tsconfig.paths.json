@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src" /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "atoms/*": ["app/components/atoms/*"],
+      "molecules/*": ["app/components/molecules/*"],
+      "organisms/*": ["app/components/organisms/*"],
+      "templates/*": ["app/components/templates/*"],
+      "layouts/*": [
+        "app/components/templates/layouts/*"
+      ],
+      "models/*": ["app/models/*"],
+    }
+  }
+}
