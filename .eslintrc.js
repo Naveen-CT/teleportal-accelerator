@@ -1,6 +1,14 @@
 module.exports = {
   root: true,
-  extends: ["@react-native-community", "airbnb-typescript", "prettier", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:storybook/recommended"],
+  extends: [
+    'airbnb-base',
+    'airbnb-typescript/base',
+    'airbnb-typescript',
+    'prettier',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'plugin:storybook/recommended'
+  ],
   plugins: ['simple-import-sort'],
   rules: {
     'simple-import-sort/imports': 'error',
